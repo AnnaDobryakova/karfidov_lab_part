@@ -6,3 +6,10 @@
     width: 284px; 
     margin: 0;
 }
+
+.card__line--consultation{
+    width: 5px;
+    height: 284px; /* Высота соответствует высоте текста */
+    flex-shrink: 0;
+    margin-top: 20px; /* Выравнивание с первой строкой текста */
+}

@@ -8,4 +8,5 @@
     background: linear-gradient(135deg, rgba(223, 111, 112, 0.1), rgba(83, 153, 152, 0));
     z-index: 22;
     top: 50px;
+    overflow: hidden; 
 }

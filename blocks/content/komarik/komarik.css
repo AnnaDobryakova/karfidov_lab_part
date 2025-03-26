@@ -1,6 +1,7 @@
 .komarik{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    z-index: 22;
-    margin-top: 145px;
+    padding: 20px;
 }
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <link rel="stylesheet" href="pages/index.css">
     <meta charset="UTF-8">
@@ -7,8 +7,11 @@
     <title>Our products</title>
 </head>
 <body>
-    <div class="page products__image">
-        
+    <div class="page">
+        <div class="products__image">
+            <img src="images/products-image.png" alt="Фоновое изображение">
+        </div>
+        <div class="products-image__overlay"></div>
         <header class="header">
             <a href="https://karfidovlab.com/">
                 <img src="images/logo.svg" alt="Karfidov lab">
@@ -26,16 +29,87 @@
                 <a href="index.html" style="text-decoration: none;">
                     <p class="header__en">RU</p>
                 </a>
-                <p class="header__ru header__active">EN</p>
+                <p class="header__en header__active">EN</p>
+                
+            </div>
         </header>
         <main class="content">
             <section class="products">
-                <h2 class="products__title">Our <br> Products</h2>
+                <h2 class="products__title">Our <br>products</h2>
+                <div class="products__rectangle"></div>
                 <p class="products__subtitle">Advanced products for modern <br>industries</p>
-                
+                <p class="products__text">
+                    We develop high-tech solutions for various industries, including robotics, medicine, IoT, telecommunications and smart cities. Some of our products are now available for order. Our technologies meet high industry standards and are designed for accuracy, reliability and ease of use. Contact us for more information or to place an order.
+                </p>
+                <h2 class="products__title" style="font-size: 70px; top: 50px">Areas of <br>consulting services</h2>
+            </section>
+            <section class="komarik">
+                <div class="komarik__rectangle">
+                    <img src="images/komarik.png" alt="Komarik" class="komarik__image">
+                </div>
+                <div class="komarik__block">
+                    <p class="komarik__subtitle">
+                        Komarik
+                    </p>
+                    <p class="products__text--subtitle">
+                        universal injection gun
+                    </p>
+                    <hr class="card__line">
+                    <p class="card__text">
+                        Personal autoinjector for fast, safe and painless <br> intramuscular and subcutaneous injections at home.
+                    </p>
+                    <a href="https://komarikpro.ru/" target="_blank" class="card__link">Find out more</a>
+                    <a href="order.html" style="text-decoration: none;" class="btn btn--block">ORDER</a>
+                </div>
+            </section>
+            <section class="komarik" style="flex-direction: row-reverse;">
+                <div class="komarik__rectangle">
+                    <img src="images/motors.png" alt="Motors" class="komarik__image">
+                </div>
+                <div class="komarik__block">
+                    <p class="komarik__subtitle">
+                        Motors
+                    </p>
+                    <p class="products__text--subtitle">
+                        универсальный пистолет для уколов
+                    </p>
+                    <hr class="card__line">
+                    <p class="card__text">
+                        Персональный автоинъектор для быстрого, безопасного <br> и безболезненного выполнения внутримышечных и <br> подкожных инъекций в домашних условиях.
+                    </p>
+                    <a href="" class="card__link">Find out more</a>
+                    <a href="order.html" style="text-decoration: none;" class="btn btn--block">ORDER</a>
+                </div>
+            </section>
+            <section class="komarik">
+                <div class="komarik__rectangle">
+                    <img src="images/sensors.png" alt="Датчики" class="komarik__image">
+                </div>
+                <div class="komarik__block">
+                    <p class="komarik__subtitle">
+                        Датчики
+                    </p>
+                    <p class="products__text--subtitle">
+                        универсальный пистолет для уколов
+                    </p>
+                    <hr class="card__line">
+                    <p class="card__text">
+                        Персональный автоинъектор для быстрого, безопасного <br> и безболезненного выполнения внутримышечных и <br> подкожных инъекций в домашних условиях.
+                    </p>
+                    <a href="" class="card__link">Find out more</a>
+                    <a href="order.html" style="text-decoration: none;" class="btn btn--block">ORDER</a>
+                </div>
+            </section>
+            <section class="consultation">
+                <div class="consultation__block">
+                    <hr class="card__line card__line--consultation">
+                    <p class="consultation__title">
+                        If you need <br> advice, <br>write to us
+                    </p>
+                </div>
+                <a href="order.html" style="text-decoration: none; width: 264px;" class="btn btn--block">SUBMIT A REQUEST</a>
             </section>
         </main>
-        <div class="products-image__overlay"></div>
     </div>
 </body>
 </html>
