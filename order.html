@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформление заказа</title>
+    <link rel="stylesheet" href="pages/order.css">
+</head>
+<body>
+    <div class="page">
+        <div class="products-image__overlay"></div>
+        <header class="header">
+            <a href="https://karfidovlab.com/">
+                <img src="images/logo.svg" alt="Karfidov lab">
+            </a>
+            <a href="https://karfidovlab.com/contacts/"  style="text-decoration: none;">
+                <p class="header__phone">+7 (495) 374-68-20</p>
+            </a>
+            <div class="header__write-us">
+                <img src="images/marker-right.svg" alt="Стелка вправо" class="header__marker-right">
+                <a href="mailto:info@karfidovlab.com" style="text-decoration: none;">
+                    <p class="header__write">НАПИСАТЬ НАМ</p>
+                </a>
+            </div>
+            <div class="header__language">
+                <p class="header__ru header__active">RU</p>
+                <a href="indexEN.html" style="text-decoration: none;">
+                    <p class="header__en">EN</p>
+                </a>
+            </div>
+        </header>
+        <main class="content">
+            <h2 class="order__title">Заявка на заказ</h2>
+            <p class="order__text">
+                Здесь вы можете оставить заявку на интересующий вас продукт. <br> Наш менеджер свяжется с вами для уточнения деталей.
+            </p>
+            <form class="order">
+                <div class="input-group">
+                    <input class="form-group" type="text" id="name" name="name" required placeholder=" ">
+                    <label for="name" class="input-label">Имя</label>
+                </div>
+        
+                <div class="input-group">
+                    <input class="form-group" type="text" id="contacts" name="contacts" required placeholder=" ">
+                    <label for="contacts" class="input-label">Email или номер телефона</label>
+                </div>
+        
+                <div class="input-group">
+                    <input class="form-group" type="text" id="company" name="company" placeholder=" ">
+                    <label for="company" class="input-label">Компания (если применимо)</label>
+                </div>
+        
+                <div class="input-group">
+                    <br>
+                    <select class="form-group" id="product" name="product" required>
+                        <option class="form-group" value="" disabled selected></option>
+                        <option class="form-group" value="komarik" style="color: black;">Комарик</option>
+                        <option class="form-group" value="motors" style="color: black;">Моторчики</option>
+                        <option class="form-group" value="sensors" style="color: black;">Датчики</option>
+                    </select>
+                    <label for="product" class="input-label">Продукт</label>
+                </div>
+        
+                <div class="input-group">
+                    <input class="form-group" type="number" id="quantity" name="quantity" min="1" max="100" value="" placeholder=" ">
+                    <label for="quantity" class="input-label">Количество</label><br>
+                </div>
+                
+                <div class="input-group">
+                    <textarea class="form-group" id="comments" name="comments" rows="4" cols="50" placeholder=" "></textarea>
+                    <label for="comments" class="input-label">Дополнительные комментарии</label><br>
+                </div>
+        
+                <a href="thanks.html" class="btn" style="text-decoration: none;">ЗАКАЗАТЬ</a>
+            </form>
+        </main>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

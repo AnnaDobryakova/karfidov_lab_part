@@ -1,0 +1,9 @@
+.order__title{
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 23;
+    margin-left: 30%;
+    margin-bottom: 0;
+    top: 25px;
+}

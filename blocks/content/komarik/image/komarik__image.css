@@ -1,0 +1,8 @@
+.komarik__image{
+    position: absolute;
+    width: 645px;
+    transform: rotate(-15deg);
+    left: -5%;
+    z-index: 22;
+
+}

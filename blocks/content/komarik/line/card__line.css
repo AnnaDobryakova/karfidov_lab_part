@@ -1,0 +1,8 @@
+.card__line{
+    z-index: 22; 
+    height: 5px; 
+    border: 0; 
+    background-color: #DF6F70; 
+    width: 284px; 
+    margin: 0;
+}

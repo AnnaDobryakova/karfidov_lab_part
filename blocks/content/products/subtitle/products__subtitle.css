@@ -1,0 +1,9 @@
+.products__subtitle{
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 23;
+    margin-left: 160px;
+    top: 25px;
+
+} 

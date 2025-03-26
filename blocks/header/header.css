@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    gap: 150px;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    min-height: 80px;
+    padding: 22px 23px 20px 30px;
+    width: 100%;
+    z-index: 3;
+}

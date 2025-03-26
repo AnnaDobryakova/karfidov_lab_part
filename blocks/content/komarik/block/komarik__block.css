@@ -1,0 +1,6 @@
+.komarik__block{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 35px;
+}

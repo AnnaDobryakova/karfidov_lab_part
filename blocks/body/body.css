@@ -1,0 +1,12 @@
+body{
+    background-color: #282e3e;
+    background-image: -webkit-gradient(linear, right top, left top, from(#2c3446), to(#0e121a));
+    background-image: linear-gradient(270deg, #2c3446, #0e121a);
+    font-family: 'CeraCY', sans-serif;
+    color: #fff;
+    font-variant-numeric: lining-nums;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}

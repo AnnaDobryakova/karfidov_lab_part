@@ -1,0 +1,8 @@
+.header__en{
+    color: #7B7C7D;
+    transition: color 0.6s linear;
+}
+
+.header__en:hover{
+    color: #e95e5ee6;
+}

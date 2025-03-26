@@ -1,0 +1,41 @@
+.btn {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    border: 1px solid #e95e5e;
+    background: linear-gradient(to left, transparent 50%, #e95e5e 50%); 
+    background-size: 200% 100%; 
+    background-position: right; 
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 3.7px;
+    text-align: center;
+    position: relative;
+    transition: background-position 0.3s ease; 
+    z-index: 1;
+    left: 20%;
+    z-index: 22;
+}
+
+.btn:hover {
+    background-position: left;
+    color: #fff; 
+}
+
+.btn--block{
+    display: flex;
+    justify-content: center;
+    width: 165px;
+    left: 5%;
+    font-size: 12px;
+    left: 0;
+    
+}
+
+.btn--thanks{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    margin: auto;
+}

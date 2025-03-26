@@ -1,0 +1,9 @@
+.komarik__subtitle{
+    position: relative;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 160%;
+    z-index: 23;
+    top: 25px;
+    margin: 0;
+}

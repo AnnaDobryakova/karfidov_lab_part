@@ -1,0 +1,14 @@
+.products__title{
+    position: relative;
+    font-size: 100px;
+    z-index: 20;
+    margin-left: 160px;
+    margin-bottom: 80px;
+}
+
+.products__title--thanks{
+    margin-left: 0;
+    top: 50%;
+    font-size: 70px;
+    text-align: center;
+}

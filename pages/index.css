@@ -1,0 +1,33 @@
+@import url('../blocks/body/body.css');
+@import url('../blocks/page/page.css');
+@import url('../pages/fonts.css');
+@import url('../blocks/content/order/button/btn.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/phone/header__phone.css');
+@import url('../blocks/header/write-us/header__write-us.css');
+@import url('../blocks/header/write-us/marker-right/header__marker-right.css');
+@import url('../blocks/header/write-us/write/header__write.css');
+@import url('../blocks/header/language/header__language.css');
+@import url('../blocks/header/language/ru/header__ru.css');
+@import url('../blocks/header/language/en/header__en.css');
+@import url('../blocks/header/language/active/header__active.css');
+
+@import url('../blocks/content/products/products.css');
+@import url('../blocks/content/products/title/products__title.css');
+@import url('../blocks/content/products/subtitle/products__subtitle.css');
+@import url('../blocks/content/products/image/products__image.css');
+@import url('../blocks/content/products/image/products-image__overlay.css');
+@import url('../blocks/content/products/rectangle/products__rectangle.css');
+@import url('../blocks/content/products/text/products__text.css');
+
+@import url('../blocks/content/komarik/komarik.css');
+@import url('../blocks/content/komarik/rectangle/komarik__rectangle.css');
+@import url('../blocks/content/komarik/image/komarik__image.css');
+@import url('../blocks/content/komarik/subtitle/komarik__subtitle.css');
+@import url('../blocks/content/komarik/block/komarik__block.css');
+@import url('../blocks/content/komarik/line/card__line.css');
+@import url('../blocks/content/komarik/block/link/card__link.css');
+@import url('../blocks/content/komarik/block/text/card__text.css');
+
+@import url('..');

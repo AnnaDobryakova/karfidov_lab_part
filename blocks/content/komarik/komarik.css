@@ -1,0 +1,6 @@
+.komarik{
+    display: flex;
+    justify-content: space-around;
+    z-index: 22;
+    margin-top: 145px;
+}

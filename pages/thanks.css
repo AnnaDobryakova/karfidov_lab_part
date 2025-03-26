@@ -1,0 +1,18 @@
+@import url('../blocks/body/body.css');
+@import url('../blocks/page/page.css');
+@import url('../pages/fonts.css');
+@import url('../blocks/content/order/button/btn.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/phone/header__phone.css');
+@import url('../blocks/header/write-us/header__write-us.css');
+@import url('../blocks/header/write-us/marker-right/header__marker-right.css');
+@import url('../blocks/header/write-us/write/header__write.css');
+@import url('../blocks/header/language/header__language.css');
+@import url('../blocks/header/language/ru/header__ru.css');
+@import url('../blocks/header/language/en/header__en.css');
+@import url('../blocks/header/language/active/header__active.css');
+
+@import url('../blocks/content/products/title/products__title.css');
+
+@import url('..');
