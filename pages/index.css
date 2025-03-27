@@ -1,37 +1,42 @@
 @import url('../blocks/body/body.css');
 @import url('../blocks/page/page.css');
 @import url('../pages/fonts.css');
-@import url('../blocks/content/order/button/btn.css');
+@import url('../blocks/common/button/btn.css');
 
-@import url('../blocks/header/header.css');
-@import url('../blocks/header/phone/header__phone.css');
-@import url('../blocks/header/write-us/header__write-us.css');
-@import url('../blocks/header/write-us/marker-right/header__marker-right.css');
-@import url('../blocks/header/write-us/write/header__write.css');
-@import url('../blocks/header/language/header__language.css');
-@import url('../blocks/header/language/ru/header__ru.css');
-@import url('../blocks/header/language/en/header__en.css');
-@import url('../blocks/header/language/active/header__active.css');
+@import url('../blocks/common/header/header.css');
+@import url('../blocks/common/header/__phone/header__phone.css');
+@import url('../blocks/common/header/__write-us/header__write-us.css');
+@import url('../blocks/common/header/__write-us/__marker-right/header__marker-right.css');
+@import url('../blocks/common/header/__write-us/__write/header__write.css');
+@import url('../blocks/common/header/__language/header__language.css');
+@import url('../blocks/common/header/__language/__ru/header__ru.css');
+@import url('../blocks/common/header/__language/__en/header__en.css');
+@import url('../blocks/common/header/__language/__active/header__active.css');
 
 @import url('../blocks/content/products/products.css');
-@import url('../blocks/content/products/title/products__title.css');
-@import url('../blocks/content/products/subtitle/products__subtitle.css');
-@import url('../blocks/content/products/image/products__image.css');
-@import url('../blocks/content/products/image/products-image__overlay.css');
-@import url('../blocks/content/products/rectangle/products__rectangle.css');
-@import url('../blocks/content/products/text/products__text.css');
+@import url('../blocks/content/products/__title/products__title.css');
+@import url('../blocks/content/products/__subtitle/products__subtitle.css');
+@import url('../blocks/content/products/__image/products__image.css');
+@import url('../blocks/content/products/__image/products-image__overlay.css');
+@import url('../blocks/content/products/__rectangle/products__rectangle.css');
+@import url('../blocks/content/products/__text/products__text.css');
 
-@import url('../blocks/content/komarik/komarik.css');
-@import url('../blocks/content/komarik/rectangle/komarik__rectangle.css');
-@import url('../blocks/content/komarik/image/komarik__image.css');
-@import url('../blocks/content/komarik/subtitle/komarik__subtitle.css');
-@import url('../blocks/content/komarik/block/komarik__block.css');
-@import url('../blocks/content/komarik/line/card__line.css');
-@import url('../blocks/content/komarik/block/link/card__link.css');
-@import url('../blocks/content/komarik/block/text/card__text.css');
+@import url('../blocks/content/card/card.css');
+@import url('../blocks/content/card/__circle/card__circle.css');
+@import url('../blocks/content/card/__block/__subtitle/card__subtitle.css');
+@import url('../blocks/content/card/__block/__title/card__title.css');
+@import url('../blocks/content/card/__block/__description/card__description.css');
+@import url('../blocks/content/card/__block/__link/card__link.css');
+@import url('../blocks/content/card/__image/card__image.css');
+@import url('../blocks/content/card/__line/card__line.css');
 
 @import url('../blocks/content/consultation/consultation.css');
-@import url('../blocks/content/consultation/title/consultation__title.css');
-@import url('../blocks/content/consultation/block/consultation__block.css');
+@import url('../blocks/content/consultation/__title/consultation__title.css');
+@import url('../blocks/content/consultation/__block/consultation__block.css');
+
+@import url('../blocks/common/footer/footer.css');
+@import url('../blocks/common/footer/__socials/__icon/footer__icon.css');
+@import url('../blocks/common/footer/__socials/__link/footer__link.css');
+@import url('../blocks/common/footer/__copyright/footer__copyright.css');
 
 @import url('..');

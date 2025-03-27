@@ -1,23 +1,25 @@
 @import url('../blocks/body/body.css');
 @import url('../blocks/page/page.css');
 @import url('../pages/fonts.css');
+@import url('../blocks/common/button/btn.css');
 
-@import url('../blocks/header/header.css');
-@import url('../blocks/header/phone/header__phone.css');
-@import url('../blocks/header/write-us/header__write-us.css');
-@import url('../blocks/header/write-us/marker-right/header__marker-right.css');
-@import url('../blocks/header/write-us/write/header__write.css');
-@import url('../blocks/header/language/header__language.css');
-@import url('../blocks/header/language/ru/header__ru.css');
-@import url('../blocks/header/language/en/header__en.css');
-@import url('../blocks/header/language/active/header__active.css');
+@import url('../blocks/common/header/header.css');
+@import url('../blocks/common/header/__phone/header__phone.css');
+@import url('../blocks/common/header/__write-us/header__write-us.css');
+@import url('../blocks/common/header/__write-us/__marker-right/header__marker-right.css');
+@import url('../blocks/common/header/__write-us/__write/header__write.css');
+@import url('../blocks/common/header/__language/header__language.css');
+@import url('../blocks/common/header/__language/__ru/header__ru.css');
+@import url('../blocks/common/header/__language/__en/header__en.css');
+@import url('../blocks/common/header/__language/__active/header__active.css');
 
-@import url('../blocks/content/order/order.css');
-@import url('../blocks/content/order/text/order__text.css');
-@import url('../blocks/content/order/title/order__title.css');
-@import url('../blocks/content/order/form-group/form-group.css');
-@import url('../blocks/content/order/button/btn.css');
-@import url('../blocks/content/order/input-group/input-group.css');
-@import url('../blocks/content/order/input-label/input-label.css');
+@import url('../blocks/content/order-form/order-form.css');
+@import url('../blocks/content/order-form/__description/order-form__description.css');
+@import url('../blocks/content/order-form/__field/order-form__field.css');
+@import url('../blocks/content/order-form/__input/order-form__input.css');
+@import url('../blocks/content/order-form/__label/order-form__label.css');
+@import url('../blocks/content/order-form/__title/order-form__title.css');
+
+
 
 @import url('..');

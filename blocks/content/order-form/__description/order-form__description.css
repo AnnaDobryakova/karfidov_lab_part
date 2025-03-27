@@ -1,0 +1,9 @@
+.order-form__description{
+    position: relative;
+    font-style: italic;
+    font-size: 18px;
+    z-index: 23;
+    width: 50%;
+    line-height: 1.7;
+    
+}

@@ -1,0 +1,10 @@
+.footer{
+    font-family: 'CeraCY', sans-serif;
+    padding: 45px 30px 50px 31px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 22;
+}
