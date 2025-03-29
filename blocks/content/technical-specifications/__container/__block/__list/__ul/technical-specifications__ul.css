@@ -1,0 +1,10 @@
+.technical-specifications__ul{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 523px;
+    height: 175px;
+    list-style: none;
+    padding-left: 0;
+}

@@ -1,0 +1,8 @@
+.choose__container{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 67px;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,4 @@
+.slider__indicator_active{
+    background-color: rgba(223, 111, 112, 1);
+    border: 1px solid rgba(223, 111, 112, 1);
+}

@@ -1,0 +1,7 @@
+.technical-specifications__container{
+    display: flex;
+    flex-direction: row;
+    gap: 84px;
+    justify-content: center;
+    align-items: end;
+}

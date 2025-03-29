@@ -8,8 +8,24 @@
 }
 
 .card__line--consultation{
+    z-index: 22; 
+    border: 0; 
+    background-color: #DF6F70; 
+    margin: 0;
     width: 5px;
-    height: 284px; /* Высота соответствует высоте текста */
+    height: 284px; 
     flex-shrink: 0;
-    margin-top: 20px; /* Выравнивание с первой строкой текста */
+    margin-right: 18px; 
+    margin-top: 20px;
+}
+
+.card__line--consultation--komarik{
+    z-index: 22; 
+    border: 0; 
+    background-color: #DF6F70; 
+    margin: 0;
+    width: 5px;
+    height: 284px; 
+    flex-shrink: 0;
+    margin-right: 18px; 
 }

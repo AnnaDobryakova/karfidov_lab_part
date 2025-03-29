@@ -1,7 +1,13 @@
 .consultation{
     position: relative;
     z-index: 23;
-    margin-left: 150px;
-    margin-bottom: 205px;
     margin: 165px auto 100px 150px;
+}
+
+.consultation--komarik{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    z-index: 23;
+    margin: 125px 150px;
 }

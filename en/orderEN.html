@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making an order</title>
+    <link rel="stylesheet" href="../pages/order.css">
+</head>
+<body>
+    <div class="page">
+        <div class="products-image__overlay"></div>
+        <header class="header">
+            <a href="https://karfidovlab.com/">
+                <img src="../images/logo.svg" alt="Karfidov lab">
+            </a>
+            <a href="https://karfidovlab.com/contacts/"  style="text-decoration: none;">
+                <p class="header__phone">+7 (495) 374-68-20</p>
+            </a>
+            <div class="header__write-us">
+                <img src="../images/marker-right.svg" alt="Стелка вправо" class="header__marker-right">
+                <a href="mailto:info@karfidovlab.com" style="text-decoration: none;">
+                    <p class="header__write">WRITE TO US</p>
+                </a>
+            </div>
+            <div class="header__language">
+                <a href="../ru/order.html" style="text-decoration: none;">
+                    <p class="header__en">RU</p>
+                </a>
+                <p class="header__en header__active">EN</p>
+                
+            </div>
+        </header>
+        <main class="content">
+            <section class="order-form">
+                <h2 class="order-form__title">Request for an order</h2>
+            <p class="order-form__description">
+                Here you can submit a request for the product you are interested in. <br> Our manager will contact you to clarify the details.</p>
+            <form class="order-form__form">
+                <div class="order-form__field">
+                    <input class="order-form__input" type="text" id="name" name="name" required placeholder=" ">
+                    <label for="name" class="order-form__label">Name</label>
+                </div>
+        
+                <div class="order-form__field">
+                    <input class="order-form__input" type="text" id="contacts" name="contacts" required placeholder=" ">
+                    <label for="contacts" class="order-form__label">Email or phone number</label>
+                </div>
+        
+                <div class="order-form__field">
+                    <input class="order-form__input" type="text" id="company" name="company" placeholder=" ">
+                    <label for="company" class="order-form__label">Company (if applicable)</label>
+                </div>
+        
+                <div class="order-form__field">
+                    <br>
+                    <select class="order-form__input" id="product" name="product" required>
+                        <option class="order-form__input" value="" disabled selected></option>
+                        <option class="order-form__input" value="komarik" style="color: black;">Komarik</option>
+                        <option class="order-form__input" value="motors" style="color: black;">Motors</option>
+                        <option class="order-form__input" value="sensors" style="color: black;">Sensors</option>
+                    </select>
+                    <label for="product" class="order-form__label">Product</label>
+                </div>
+        
+                <div class="order-form__field">
+                    <input class="order-form__input" type="number" id="quantity" name="quantity" min="1" max="100" value="" placeholder=" ">
+                    <label for="quantity" class="order-form__label">Quantity</label><br>
+                </div>
+                
+                <div class="order-form__field">
+                    <textarea class="order-form__input" id="comments" name="comments" rows="4" cols="50" placeholder=" "></textarea>
+                    <label for="comments" class="order-form__label">Additional comments</label><br>
+                </div>
+        
+                <a href="../en/thanksEN.html" class="btn" style="text-decoration: none;">ORDER</a>
+            </form>
+            </section>
+        </main>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
