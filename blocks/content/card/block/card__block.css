@@ -5,3 +5,10 @@
     margin-top: 35px;
     z-index: 23;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .card__block{
+        display: flex;
+        justify-content: center;
+    }
+}

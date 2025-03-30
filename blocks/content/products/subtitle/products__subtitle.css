@@ -8,7 +8,7 @@
 
 } 
 
-@media (max-width: 390px) {
+@media (min-width: 390px) and (max-width: 449px) {
     .products__subtitle{
         top: 35px;
         font-size: 26px;
@@ -17,3 +17,4 @@
         font-weight: 700;
     }
 }
+

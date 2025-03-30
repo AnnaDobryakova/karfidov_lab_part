@@ -10,3 +10,10 @@
     top: 50px;
     overflow: hidden; 
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .card__circle{
+        width: 350px;
+        height: 350px;
+    }
+}

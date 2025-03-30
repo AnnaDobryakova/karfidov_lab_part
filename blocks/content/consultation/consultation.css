@@ -11,3 +11,9 @@
     z-index: 23;
     margin: 125px 150px;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .consultation{
+        margin: 61px auto 79px 30px;
+    }
+}

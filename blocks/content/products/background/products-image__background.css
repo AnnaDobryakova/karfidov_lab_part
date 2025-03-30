@@ -1,8 +1,7 @@
-
-
-@media (max-width: 390px) {
-    .products-image__background{
-        width: 50%;
-        height: 50%;
+@media (min-width: 390px) and (max-width: 449px) {
+    .products-image__background{ 
+        width: 624px;
+        height: 304px;
+        margin-left: -150px; 
     }
 }

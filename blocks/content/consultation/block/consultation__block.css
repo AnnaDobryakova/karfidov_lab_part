@@ -9,3 +9,10 @@
     margin-bottom: 0px;
     justify-content: space-between;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .consultation__block{
+        display: flex;
+        margin-bottom: 30px;
+    }
+}

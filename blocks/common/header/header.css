@@ -10,8 +10,9 @@
     z-index: 2;
 }
 
-@media (max-width: 390px) {
+@media (min-width: 390px) and (max-width: 449px) {
     .header{
         gap: 20px;
     }
 }
+

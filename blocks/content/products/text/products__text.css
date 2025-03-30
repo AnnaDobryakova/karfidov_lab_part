@@ -2,13 +2,13 @@
     position: relative;
     font-size: 18px;
     z-index: 23;
-    top: 50px;
+    top: 80px;
     width: 70%;
     line-height: 1.7;
     margin-left: 160px;
 }
 
-@media (max-width: 390px) {
+@media (min-width: 390px) and (max-width: 449px) {
     .products__text{
         font-size: 16px;
         margin-left: 30px;

@@ -7,3 +7,19 @@
     z-index: 23;
 }
 
+.card--reverse{
+    flex-direction: row-reverse;
+} 
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .card--reverse{
+        flex-direction: column;
+    }
+}

@@ -1,4 +1,4 @@
-@media (max-width: 390px) {
+@media (min-width: 390px) and (max-width: 449px) {
     .header__marker-right{
         display: none;
     }

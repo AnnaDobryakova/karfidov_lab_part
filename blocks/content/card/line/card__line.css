@@ -29,3 +29,12 @@
     flex-shrink: 0;
     margin-right: 18px; 
 }
+
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .card__line--consultation{
+        width: 5px;
+        height: 150px;
+        margin-top: 0;
+    }
+}
