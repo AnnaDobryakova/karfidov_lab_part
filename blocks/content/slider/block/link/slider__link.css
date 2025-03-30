@@ -3,3 +3,9 @@
     color: white;
     margin-right: 15px;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .slider__link{ 
+        font-size: 10px;
+    }
+}

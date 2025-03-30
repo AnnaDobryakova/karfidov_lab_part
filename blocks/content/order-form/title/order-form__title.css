@@ -4,3 +4,9 @@
     font-weight: bold;
     z-index: 23;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .order-form__title{
+        font-size: 33px;
+    }
+}

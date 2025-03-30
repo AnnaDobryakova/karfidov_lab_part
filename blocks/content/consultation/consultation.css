@@ -17,3 +17,9 @@
         margin: 61px auto 79px 30px;
     }
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .consultation--komarik{ 
+        margin: 61px auto 79px 30px;
+    }
+}

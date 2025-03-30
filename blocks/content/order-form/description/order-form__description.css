@@ -5,5 +5,12 @@
     z-index: 23;
     width: 50%;
     line-height: 1.7;
-    
+}
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .order-form__description{
+        font-size: 16px;
+        width: 80%;
+        margin-bottom: 30px;
+    }
 }

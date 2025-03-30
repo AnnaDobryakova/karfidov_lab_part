@@ -39,3 +39,10 @@
     width: 30%;
     margin: auto;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .btn--thanks{
+        width: 70%;
+        left: 13%;
+    }
+}

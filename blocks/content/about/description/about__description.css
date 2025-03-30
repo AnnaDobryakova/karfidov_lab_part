@@ -6,3 +6,9 @@
     margin: 0;
     margin-top: 5px;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .about__description{ 
+        width: 350px;
+    }
+}

@@ -6,3 +6,11 @@
     padding-bottom: 80px;
     z-index: 23;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .order-form{
+        display: flex;
+        flex-direction: column;
+        left: 16%;
+    }
+}

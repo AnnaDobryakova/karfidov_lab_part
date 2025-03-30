@@ -5,3 +5,10 @@
     justify-content: center;
     align-items: end;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .technical-specifications__container{ 
+        display: flex;
+        flex-direction: column;
+    }
+}

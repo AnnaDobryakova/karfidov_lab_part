@@ -19,6 +19,7 @@
 @import url('../blocks/content/first-screen/scroll/first-screen__scroll.css');
 @import url('../blocks/content/first-screen/subtitle/first-screen__subtitle.css');
 @import url('../blocks/content/first-screen/title/first-screen__title.css');
+@import url('../blocks/content/first-screen/background/first-screen__background.css');
 
 @import url('../blocks/content/about/about.css');
 @import url('../blocks/content/about/subtitle/about__subtitle.css');

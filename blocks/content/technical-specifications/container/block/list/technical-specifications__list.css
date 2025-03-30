@@ -6,3 +6,10 @@
     column-gap: 41px;
    
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .technical-specifications__list{ 
+        width: 350px;
+        font-size: 13px;
+    }
+}

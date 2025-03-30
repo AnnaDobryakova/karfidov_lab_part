@@ -6,3 +6,10 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .choose__container{ 
+        display: flex;
+        flex-direction: column;
+    }
+}

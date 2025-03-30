@@ -2,3 +2,9 @@
     width: 20px;
     margin-top: 75px;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .first-screen__scroll{ 
+        margin-top: 30px;
+    }
+}

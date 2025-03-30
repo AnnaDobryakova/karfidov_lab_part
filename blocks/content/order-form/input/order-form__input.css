@@ -35,3 +35,9 @@
     opacity: 1;
     transition: opacity 0.3s ease;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .order-form__input{
+        width: 80%;
+    }
+}

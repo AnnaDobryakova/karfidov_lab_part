@@ -15,3 +15,9 @@
         font-size: 40px;
     }
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .consultation__title--komarik{ 
+        font-size: 30px;
+    }
+}

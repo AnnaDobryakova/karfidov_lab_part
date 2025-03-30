@@ -8,3 +8,11 @@
     list-style: none;
     padding-left: 0;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .technical-specifications__ul{ 
+        width: 330px;
+        height: 150px;
+        font-size: 13px;
+    }
+}

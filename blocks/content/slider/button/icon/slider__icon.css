@@ -3,3 +3,10 @@
     width: 10px;
     height: 20px;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .slider__icon{ 
+        width: 5px;
+        height: 10px;
+    }
+}

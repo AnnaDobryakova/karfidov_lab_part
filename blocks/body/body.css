@@ -10,3 +10,10 @@ body{
     overflow-x: hidden;
     margin: 0;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    html, body{
+        overflow-x: hidden; 
+        width: 100%;
+    }
+}

@@ -6,3 +6,9 @@
     margin-bottom: 0;
     
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .first-screen__title{ 
+        font-size: 40px; 
+    }
+}

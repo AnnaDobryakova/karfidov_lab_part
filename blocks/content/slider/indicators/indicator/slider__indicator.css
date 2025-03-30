@@ -8,3 +8,10 @@
     border: 1px solid rgba(255, 255, 255, 1);
     padding: 0;
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .slider__indicator{ 
+        width: 5px;
+        height: 5px;
+    }
+}

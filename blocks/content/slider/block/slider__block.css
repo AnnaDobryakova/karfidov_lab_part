@@ -5,3 +5,10 @@
     padding-right: 50px;
 
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .slider__block{ 
+        top: 60%;
+        padding-right: 15px;
+    }
+}

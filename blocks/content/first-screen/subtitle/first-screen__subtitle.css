@@ -8,3 +8,10 @@
     margin-bottom: 66px;
     
 }
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .first-screen__subtitle{ 
+        font-size: 18px; 
+        margin-bottom: 40px;
+    }
+}
