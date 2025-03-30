@@ -20,16 +20,9 @@
 
 @media (min-width: 390px) and (max-width: 449px) {
     .products__title{
-        font-size: 48px;
+        font-size: 40px;
         margin-left: 30px;
         margin-bottom: 65px;
     }
 }
 
-@media (min-width: 390px) and (max-width: 449px) {
-    .products-image__background{ 
-        width: 624px;
-        height: 304px;
-        margin-left: -150px; 
-    }
-}

@@ -42,7 +42,14 @@
 
 @media (min-width: 390px) and (max-width: 449px) {
     .btn--thanks{
+        font-size: 15px;
         width: 70%;
         left: 13%;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 449px) {
+    .btn--order{
+        left: 15%;
     }
 }
