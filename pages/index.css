@@ -24,21 +24,21 @@
 @import url('../blocks/content/products/background/products-image__background.css');
 
 @import url('../blocks/content/card/card.css');
-@import url('../blocks/content/card/__circle/card__circle.css');
-@import url('../blocks/content/card/__block/__subtitle/card__subtitle.css');
-@import url('../blocks/content/card/__block/__title/card__title.css');
-@import url('../blocks/content/card/__block/__description/card__description.css');
-@import url('../blocks/content/card/__block/__link/card__link.css');
-@import url('../blocks/content/card/__image/card__image.css');
-@import url('../blocks/content/card/__line/card__line.css');
+@import url('../blocks/content/card/circle/card__circle.css');
+@import url('../blocks/content/card/block/subtitle/card__subtitle.css');
+@import url('../blocks/content/card/block/title/card__title.css');
+@import url('../blocks/content/card/block/description/card__description.css');
+@import url('../blocks/content/card/block/link/card__link.css');
+@import url('../blocks/content/card/image/card__image.css');
+@import url('../blocks/content/card/line/card__line.css');
 
 @import url('../blocks/content/consultation/consultation.css');
-@import url('../blocks/content/consultation/__title/consultation__title.css');
-@import url('../blocks/content/consultation/__block/consultation__block.css');
+@import url('../blocks/content/consultation/title/consultation__title.css');
+@import url('../blocks/content/consultation/block/consultation__block.css');
 
 @import url('../blocks/common/footer/footer.css');
-@import url('../blocks/common/footer/__socials/__icon/footer__icon.css');
-@import url('../blocks/common/footer/__socials/__link/footer__link.css');
-@import url('../blocks/common/footer/__copyright/footer__copyright.css');
+@import url('../blocks/common/footer/socials/icon/footer__icon.css');
+@import url('../blocks/common/footer/socials/link/footer__link.css');
+@import url('../blocks/common/footer/copyright/footer__copyright.css');
 
 @import url('..');
