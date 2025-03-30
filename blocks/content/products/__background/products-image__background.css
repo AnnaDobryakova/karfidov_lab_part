@@ -1,0 +1,8 @@
+
+
+@media (max-width: 390px) {
+    .products-image__background{
+        width: 50%;
+        height: 50%;
+    }
+}

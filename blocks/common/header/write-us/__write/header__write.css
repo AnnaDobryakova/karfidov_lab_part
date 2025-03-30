@@ -6,3 +6,9 @@
 .header__write:hover{
     color: #e95e5ee6;
 }
+
+@media (max-width: 390px) {
+    .header__write{
+        display: none;
+    }
+}
