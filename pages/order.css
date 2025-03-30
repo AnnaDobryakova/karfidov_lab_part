@@ -12,6 +12,7 @@
 @import url('../blocks/common/header/language/ru/header__ru.css');
 @import url('../blocks/common/header/language/en/header__en.css');
 @import url('../blocks/common/header/language/active/header__active.css');
+@import url('../blocks/common/header/hamburger/header__hamburger.css');
 
 @import url('../blocks/content/order-form/order-form.css');
 @import url('../blocks/content/order-form/description/order-form__description.css');

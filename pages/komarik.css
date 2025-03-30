@@ -13,6 +13,7 @@
 @import url('../blocks/common/header/language/ru/header__ru.css');
 @import url('../blocks/common/header/language/en/header__en.css');
 @import url('../blocks/common/header/language/active/header__active.css');
+@import url('../blocks/common/header/hamburger/header__hamburger.css');
 
 @import url('../blocks/content/first-screen/first-screen.css');
 @import url('../blocks/content/first-screen/image/first-screen__image.css');
